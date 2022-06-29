@@ -1,0 +1,7 @@
+{
+  "name": "listGenerator",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
