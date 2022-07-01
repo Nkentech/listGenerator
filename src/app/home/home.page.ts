@@ -153,7 +153,7 @@ export class HomePage implements OnInit {
             const result = await Filesystem.writeFile({
               path,
               data,
-              directory: FilesystemDirectory.Documents,
+              directory: Directory.Documents,
               recursive: true
               // encoding: FilesystemEncoding.UTF8
             });
